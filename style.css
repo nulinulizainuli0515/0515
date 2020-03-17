@@ -1,7 +1,30 @@
+body {
+  
+}
+h1,h2,h3,h4,h5,h6,p {
+  padding: 10px 0;
+  margin: 0;
+}
+header {
+  height: 100px;
+  width: 100vw;
+  font-size: 30px;
+  z-index: 2;
+}
 
-
-
-
-
-
-
+.contents { 
+  height: 100vh;
+  width: 100vw;
+  background-image: url(https://www.pakutaso.com/shared/img/thumb/coffee20160715235104_TP_V.jpg);
+  background-position: center center;
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto;
+}
+.contents2 {
+  height: 100vh;
+  width: 100vw;
+  background: rgba(94, 184, 86, 0.5);
+  position: absolute;
+  top: 150px;
+}
