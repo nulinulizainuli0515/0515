@@ -1,16 +1,20 @@
-body {
-  
+* {
+  margin: 0;
 }
+
+body {
+}
+
 h1,h2,h3,h4,h5,h6,p {
   padding: 10px 0;
   margin: 0;
 }
 header {
-  height: 100px;
+  height: 130px;
   width: 100vw;
-  /* font-size: 30px; */
-  z-index: 2;
+  background-color: #a0552d;
   position: fixed;
+  z-index: 2;
 }
 
 .contents { 
@@ -21,12 +25,12 @@ header {
   color: #333;
   margin: 0 auto;
   position: absolute;
-  top: 150px;
+  top: 130px;
 }
 .contents2 {
   height: 100vh;
   width: 100vw;
   background: rgba(55, 65, 54, 0.5);
   position: absolute;
-  top: 150px;
+  top: 130px;
 }
